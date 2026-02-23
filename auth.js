@@ -2,8 +2,8 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
 // Replace these with your actual Supabase credentials
-const SUPABASE_URL = 'https://your-project-url.supabase.co'
-const SUPABASE_ANON_KEY = 'your-anon-key'
+const SUPABASE_URL = 'https://lumina-ai-saas-website.supabase.com'
+const SUPABASE_ANON_KEY = 'sb_publishable_pD3ZGJ2TahwLEYI8F5Qu2w_Uubh-oVv'
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
 
@@ -55,9 +55,9 @@ function updateNavbarLoggedOut() {
     const navCta = document.querySelector('.nav-cta');
     if (navCta) {
         navCta.innerHTML = `
-            <a href="#" class="btn btn-secondary auth-trigger" data-provider="google">Google Login</a>
-            <a href="#" class="btn btn-primary auth-trigger" data-provider="azure">Microsoft Signup</a>
+            <a href="#" class="btn btn-primary auth-trigger" data-provider="google">Sign in with Google</a>
         `;
+
         attachAuthListeners();
     }
 }
