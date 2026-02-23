@@ -2,7 +2,7 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
 // Replace these with your actual Supabase credentials
-const SUPABASE_URL = 'https://lumina-ai-saas-website.supabase.com'
+const SUPABASE_URL = 'https://pD3ZGJ2TahwLEYI8F5Qu2w.supabase.co'
 const SUPABASE_ANON_KEY = 'sb_publishable_pD3ZGJ2TahwLEYI8F5Qu2w_Uubh-oVv'
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
