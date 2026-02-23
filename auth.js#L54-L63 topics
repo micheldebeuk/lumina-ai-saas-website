@@ -1,9 +1,0 @@
-function updateNavbarLoggedOut() {
-    const navCta = document.querySelector('.nav-cta');
-    if (navCta) {
-        navCta.innerHTML = `
-            <a href="#" class="btn btn-primary auth-trigger" data-provider="google">Sign in with Google</a>
-        `;
-        attachAuthListeners();
-    }
-}
