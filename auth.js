@@ -1,4 +1,4 @@
-// Lumina AI - Real Auth Integration (Supabase)
+console.log('Lumina Auth Loaded: v1.1.0 - URL: cxwxtlrsfgrwdohavtva.supabase.co');
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
 // Replace these with your actual Supabase credentials
