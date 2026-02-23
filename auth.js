@@ -1,9 +1,9 @@
-console.log('Lumina Auth Loaded: v1.1.0 - URL: cxwxtlrsfgrwdohavtva.supabase.co');
+console.log('Lumina Auth Loaded: v1.1.1 - Validated Connection');
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
 // Replace these with your actual Supabase credentials
 const SUPABASE_URL = 'https://cxwxtlrsfgrwdohavtva.supabase.co'
-const SUPABASE_ANON_KEY = 'sb_publishable_pD3ZGJ2TahwLEYI8F5Qu2w_Uubh-oVv'
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN4d3h0bHJzZmdyd2RvaGF2dHZhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE4NDYyODMsImV4cCI6MjA4NzQyMjI4M30.ow09HXr5TLS6ayYHjvJuQQ4TzU4nk_WWOhQVOhjk_j4'
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
 
