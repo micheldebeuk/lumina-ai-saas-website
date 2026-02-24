@@ -27,8 +27,8 @@
             </ul>
         </nav>
         <div class="nav-cta">
-            <a href="#signup" class="btn btn-secondary">Login</a>
-            <a href="#signup" class="btn btn-primary">Join the Waitlist</a>
+            <a href="#" class="btn btn-secondary auth-trigger" data-provider="google">Login</a>
+            <a href="#" class="btn btn-primary auth-trigger" data-provider="google">Join the Waitlist</a>
         </div>
     </header>
 
@@ -41,15 +41,12 @@
                 <p>The first AI platform built for the aesthetics of logic. Beautiful interfaces, surgical execution,
                     and effortless growth for elite teams.</p>
                 <div class="hero-actions">
-                    <a href="#signup" class="btn btn-primary">Start Building Free</a>
-                    <a href="#demo" class="btn btn-secondary">Request VIP Invite</a>
+                    <button class="btn btn-primary auth-trigger" data-provider="google">Start Building Free</button>
+                    <button class="btn btn-secondary auth-trigger" data-provider="google">Request VIP Invite</button>
                 </div>
-                <div class="hero-auth-options">
-                    <span>Or fast-track with:</span>
-                    <a href="#" class="auth-trigger" data-provider="google">Continue with Google</a>
+                <div class="hero-auth-options" style="margin-top: 2rem; opacity: 0.7; font-size: 0.9rem;">
+                    <span>Verified Connection v2.0.0</span>
                 </div>
-
-
             </div>
             <div class="hero-visual animate-fade-up">
                 <div class="luxury-blob"></div>
@@ -130,7 +127,7 @@
                         <li>Global Latency Guard</li>
                         <li>Community Support</li>
                     </ul>
-                    <a href="#" class="btn btn-secondary">Get Started</a>
+                    <button class="btn btn-secondary auth-trigger" data-provider="google">Get Started</button>
                 </div>
                 <div class="pricing-card featured">
                     <div class="tag">Most Popular</div>
@@ -141,7 +138,7 @@
                         <li>Sub-ms Priority</li>
                         <li>White-glove Support</li>
                     </ul>
-                    <a href="#" class="btn btn-primary">Join Alpha</a>
+                    <button class="btn btn-primary auth-trigger" data-provider="google">Join Alpha</button>
                 </div>
                 <div class="pricing-card">
                     <h4>Enterprise</h4>
@@ -151,17 +148,16 @@
                         <li>On-site Integration</li>
                         <li>24/7 Dedicated Ops</li>
                     </ul>
-                    <a href="#" class="btn btn-secondary">Contact Sales</a>
+                    <button class="btn btn-secondary auth-trigger" data-provider="google">Contact Sales</button>
                 </div>
             </div>
         </section>
 
-        <div class="cta-card">
+        <div class="cta-card container" style="margin-bottom: 8rem;">
             <h2>Ready to enter the new era?</h2>
             <p>Limited spots currently available for the 2026 Alpha program.</p>
-            <a href="#signup" class="btn btn-primary">Get Early Access</a>
+            <button class="btn btn-primary auth-trigger" data-provider="google">Get Early Access</button>
         </div>
-        </section>
     </main>
 
     <footer class="container">
@@ -175,8 +171,7 @@
             <div class="footer-copyright">© 2026 Lumina AI. All rights reserved.</div>
         </div>
     </footer>
-    <script type="module" src="auth.js?v=1.2.0"></script>
+    <script type="module" src="auth.js?v=2.0.0"></script>
 </body>
-
 
 </html>

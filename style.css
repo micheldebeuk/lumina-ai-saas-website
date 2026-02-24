@@ -10,7 +10,6 @@
     /* Premium Pink */
     --primary-dark: #D44CA3;
     --secondary: #FFB6C1;
-
     --accent: #F5F000;
     --bg: #F7F5F0;
     --bg-soft: #FBF8F4;
@@ -545,6 +544,29 @@ footer {
     .cta-card h2 {
         font-size: 2rem;
     }
+}
+
+/* Use Cases */
+.use-cases-section {
+    padding-bottom: 10rem;
+}
+
+.use-case-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.use-case-item {
+    padding: 3rem;
+    border-radius: var(--radius-lg);
+}
+
+.use-case-item h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
 }
 
 /* Auth & Toast */

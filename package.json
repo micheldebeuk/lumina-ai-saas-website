@@ -1,0 +1,8 @@
+{
+  "name": "lumina-ai-saas-website",
+  "version": "2.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
