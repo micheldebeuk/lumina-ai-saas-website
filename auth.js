@@ -16,7 +16,10 @@ export async function signIn(provider) {
     const { data, error } = await supabase.auth.signInWithOAuth({
         provider: provider,
         options: {
-            redirectTo: window.location.origin
+            redirectTo: window.location.origin,
+            queryParams: {
+                prompt: 'select_account'
+            }
         }
     })
 
