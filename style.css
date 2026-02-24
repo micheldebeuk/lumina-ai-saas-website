@@ -147,8 +147,8 @@ h3,
 
 .btn-primary {
     background-color: var(--primary);
-    color: var(--white);
-    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+    color: var(--charcoal) !important;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
 }
 
 .btn-primary:hover {
@@ -464,7 +464,7 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     background: var(--primary);
-    color: var(--white);
+    color: var(--charcoal);
     padding: 0.25rem 1rem;
     border-radius: 100px;
     font-size: 0.7rem;
